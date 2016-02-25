@@ -30,7 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #222;
 }
 
 .main-nav a {
@@ -50,6 +50,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 1.5em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,8 +58,8 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
-  color: black;
+.nav a.selected, a:hover {
+  color: #222;
 }
 
 header {
@@ -76,15 +77,16 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 3px solid #222;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #222;
   padding: 10px;
   border-style: solid;
   border-radius: 5px;
@@ -106,9 +108,12 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #16d4ce;
 }
 
+.about {
+  margin: 50px 200px 0px 200px;
+}
 
 ul.skills {
   padding: 0;
@@ -129,7 +134,7 @@ ul.skills {
 }
 
 .skills li a {
-  color: black;
+  color: #222;
 }
 
 .skills li a:hover{
@@ -178,6 +183,10 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
+}
+
+.twitter_about {
+  color: #4eced2;
 }
 .clearfix {
   clear: both;
