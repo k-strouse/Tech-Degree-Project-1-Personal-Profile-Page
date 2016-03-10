@@ -1,59 +1,92 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Kyle Strouse's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kyle Strouse | Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800|Changa+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
   <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Kyle Strouse</li>
+    <header class="main-header">
+      <a href="index.html">
+        <h1>Kyle Strouse</a></h1>
+        <p>Hi! I'm a front-end developer who loves responsive design and css.
+          I recently finished learning front-end web development at Treehouse
+          and am excited to put all my skills to use!</p>
+      </a>
+      <nav class="nav">
+        <ul>
           <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#portfolio-link">Portfolio</a></li>
+          <li><a href="#contact-link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="index.html">
+        <img class="me" src="img/profile.png" alt="Me!"></a>
+    </header>
+    <div id="wrapper">
+      <section>
+          <h2><a id="portfolio-link">Portfolio</h1></a>
+            <ul id="gallery">
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="" alt="">
+                  <p></p>
+                </a>
+              </li>
+            </ul>
+      </section>
+    </div>
+    <div class="contact-wrapper">
+      <h3><a id="contact-link">Contact Details</h3></a>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:214-555-6789">214-425-8552</a></li>
+          <li class="mail"><a href="mailto:kstrouse09@gmail.com"</a>KStrouse09@gmail.com</a></li>
         </ul>
     </div>
-
-    <header>
-      <img src="images/kyle.jpg" alt="Picture of Kyle Strouse" class="profile-image">
-      <h1 class="tag name">Hello, I’m Kyle.</h1>
-      <p class="tag location">Dallas, TX is where I call home.</p>
-    </header>
-
-    <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer that witnessed the internet change the way we live. I've always been fascinated with the web
-        and have continuously had an interest in web development</p>
-        <p>I’m excited to bring my life experiences to the process of building fantastic looking websites. My professional experience
-          has been in sales however I am a life-long learner who's always interested in expanding my skills.</p>
-      </div>
-
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li><a href="http://www.w3schools.com/html/html_intro.asp">HTML</a></li>
-          <li><a href="http://www.w3schools.com/css/css_intro.asp">CSS</a></li>
-          <li><a href="http://www.w3schools.com/js/js_intro.asp">JavaScript</a></li>
-          <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-          <li><a href="http://rubyonrails.org/">Rails</a></li>
-        </ul>
-        <p>I’d like to take the plunge and find work in web development.</p>
-      </div>
-
-    </main>
     <footer>
-      <ul>
-        <li><a href="https://twitter.com/tx_kiter" class="social twitter">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/kyle-strouse-59594916?trk=hp-identity-photo" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/k-strouse" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">&copy; 2016 Kyle Strouse</p>
+      <h3>Kyle Strouse</h3>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="about.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
-  </html>
+</html>
